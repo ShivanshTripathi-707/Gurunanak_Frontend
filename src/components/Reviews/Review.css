@@ -1,0 +1,122 @@
+.review {
+  text-align: center;
+  background: #f9f9f9;
+  padding: 60px 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Heading */
+.review h2 {
+  font-size: 2.8rem;
+  color: #222;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+/* Slider container */
+.review-slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+}
+
+/* Infinite scroll track */
+.review-track {
+  display: flex;
+  gap: 30px;
+  animation: scroll 30s linear infinite;
+}
+
+/* Review card */
+.review-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 10px 7px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  min-width: 300px;
+  max-width: 320px;
+  flex: 0 0 auto;
+  text-align: left;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Quote icon */
+.quote-icon {
+  font-size: 2rem;
+  color: #ffd700;
+  margin-bottom: 15px;
+}
+
+/* Review text */
+.review-text {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+/* Footer (name + person icon) */
+.review-footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.person-icon {
+  color: #ffd700;
+  font-size: 1.2rem;
+}
+
+.review-name {
+  font-size: 1.1rem;
+  color: #222;
+  font-weight: 600;
+}
+
+/* Infinite scroll animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .review-track {
+  display: flex;
+  gap: 30px;
+  animation: scroll 10s linear infinite;
+}
+  .review h2 {
+    font-size: 2rem;
+  }
+
+  .review-card {
+    min-width: 260px;
+    padding: 25px;
+  }
+
+  .review-text {
+    font-size: 1rem;
+  }
+
+  .person-icon {
+    font-size: 1.1rem;
+  }
+
+  .review-name {
+    font-size: 1rem;
+  }
+}

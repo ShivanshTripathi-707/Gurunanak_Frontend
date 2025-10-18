@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+  user-select: none;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  min-height: 100vh;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
