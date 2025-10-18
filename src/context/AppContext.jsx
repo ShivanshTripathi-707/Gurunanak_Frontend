@@ -4,8 +4,8 @@ import axios from "axios";
 export const AppContext = createContext(null);
 
 const AppContextProvider = (props) => {
-  // const url = "https://gurunanak-backend.onrender.com";
-  const url = "http://localhost:3000";
+  const url = "https://gurunanak-backend-1.onrender.com";
+  // const url = "http://localhost:3000";
   const [loggedIn, setLoggedIn] = useState(false);
   const [userToken, setUserToken] = useState(localStorage.getItem("userToken") || null);
 
