@@ -74,6 +74,15 @@
   box-shadow: 0 6px 16px rgba(0,0,0,0.2);
 }
 
+/* 📌 NEW: service image style */
+.service-img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* Icons */
 .service-icon {
   font-size: 3.2rem;
   color: #ffd700;
@@ -151,6 +160,11 @@
 
   .content-box {
     padding: 30px 25px;
+  }
+
+  .service-img {
+    width: 100%;
+    border-radius: 10px;
   }
 
   .content-box h3 {
