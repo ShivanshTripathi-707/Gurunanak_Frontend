@@ -7,13 +7,13 @@ const RoomsPrice = () => {
   const rooms = [
     {
       title: "Single Occupancy",
-      price: "22,000",
+      price: "11,000",
       note: "+ Electricity Bill",
       icon: "fa-indian-rupee-sign",
     },
     {
       title: "Double Occupancy",
-      price: "11,000",
+      price: "22,000",
       note: "+ Electricity Bill",
       icon: "fa-indian-rupee-sign",
     },
